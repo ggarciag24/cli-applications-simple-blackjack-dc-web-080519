@@ -44,6 +44,7 @@ def hit?(current_card_total)
   end  
   if (answer != 'h') && (answer != 's')
     invalid_command
+    hit?(current_card_total)
   end
   # binding.pry
 end
