@@ -68,4 +68,4 @@ def runner
   end_game(current_card_total)
 end
     
-binding.pry
+# binding.pry
